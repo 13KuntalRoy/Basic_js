@@ -39,6 +39,8 @@ const addItem=()=>{
        li.appendChild(label)
        ul.insertBefore(li,ul.childNodes[0])
        li.className='visual'
+       
+       input.value =''
    }
 }
 
